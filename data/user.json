@@ -1,0 +1,22 @@
+
+[
+    {
+        "Id": 1,
+        "Name": "moshe",
+        "Passwors":"qwerty",
+        "IsAdmin": true
+    },
+    {
+        "Id": 2,
+        "Name": "michael",
+        "Passwors":"123456",
+        "IsAdmin": false
+    },
+    {
+        "Id": 3,
+        "Name": "dani",
+        "Passwors":"12345",
+        "IsAdmin": false
+    }
+
+]

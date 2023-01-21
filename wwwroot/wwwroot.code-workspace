@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "wwwroot",
+			"path": "../../ToDoList/wwwroot"
+		},
+		{
+			"name": "TodoList",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
