@@ -38,7 +38,7 @@ namespace USER.Controllers
         public ActionResult<List<User>> GetAll()
         {
 
-            User user = userService.GetAll();
+            List<User> user = userService.GetAll();
             if (user == null)
                 return NotFound();
             return user;
