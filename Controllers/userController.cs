@@ -3,8 +3,10 @@
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using user.Interfaces;
+using user.Models;
 
-namespace USER.Controllers
+namespace user.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -20,21 +22,33 @@ namespace USER.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        // [Authorize(Policy = "Admin")]
         public ActionResult<String> Login([FromBody] User User)
         {
-
-            if (User.IsAdmin == false)
+             var claims = new List<Claim>();
+             var getuser=userService.GetAll().FirstOrDefault(c=>c.Username ==User.Username && c.Password == User.Password);
+              if (getuser == null)
                 return Unauthorized();
-            //  var claims = new List<Claim>
-            // {
-            //     new Claim("type", "Admin"),
-            // };
-            return "yes";
+          
+             if(getuser.IsAdmin)
+             {
+                 claims.Add(new Claim("type","Admin"));
+             }
+            else
+            {
+                claims.Add( new Claim("type", "User"));
+            }
+                claims.Add(new Claim("Id", getuser.Id.ToString()));
+            
+            
+            var token = services.TaskTokenService.GetToken(claims);
 
+            return new OkObjectResult(services.TaskTokenService.WriteToken(token));
         }
-        [Authorize(Policy = "Admin")]
+        
+       
         [HttpGet]
+        [Route("[action]")]
+        [Authorize(Policy = "Admin")]
         public ActionResult<List<User>> GetAll()
         {
 
@@ -64,8 +78,18 @@ namespace USER.Controllers
 
         }
 
+        [HttpDelete("{id}")]             
+        [Authorize(Policy = "Admin")]
+        public IActionResult Delete(int id)
+        {
+            var user = userService.Get(id);
+            if (user is null)
+                return  NotFound();
 
+            userService.Delete(id);
 
+            return Content(userService.Count.ToString());
+        }
 
 
     }

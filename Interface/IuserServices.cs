@@ -1,6 +1,11 @@
 
 
- public interface IuserService
+using Microsoft.AspNetCore.Mvc;
+using user.Models;
+
+namespace user.Interfaces{
+public interface IuserService
+
     {
          List<User> GetAll();
 
@@ -10,7 +15,6 @@
 
          void Delete(int id);
 
-      
-         
-        
+         int? Count { get; }
     }
+}

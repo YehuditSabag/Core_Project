@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<TodoList.Interfaces.ITodoService, TodoList.Services.TodoService>();
-//   builder.Services.AddSingleton<TodoList.Interfaces.ITodoServices, Todo.Services.TodoServices>();
+ builder.Services.AddSingleton<user.Interfaces.IuserService, user.Services.userService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

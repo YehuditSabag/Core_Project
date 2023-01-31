@@ -27,3 +27,10 @@ C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.genruntimeconfig.cache
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\ref\tar2.dll
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\data\Task.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\data\user.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\package-lock.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

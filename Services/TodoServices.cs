@@ -47,7 +47,9 @@ namespace TodoList.Services
         {
             if (tasks != null)
             {
-                b.Id = tasks.Count() + 1;
+                b.Id =tasks[tasks.Count-1].Id+1 ;
+                //. tasks.Count() + 1;
+                b.Isdone=false;
                 tasks.Add(b);
                 saveToFile();
             }
@@ -79,7 +81,6 @@ namespace TodoList.Services
 
 
         public int? Count => tasks?.Count();
-
 
     }
 }

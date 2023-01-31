@@ -72,5 +72,17 @@ namespace TodoList.Controllers
             // 
 
         }
+
+         [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var task = TodoService.Get(id);
+            if (task is null)
+                return  NotFound();
+
+            TodoService.Delete(id);
+
+            return Content(TodoService.Count.ToString());
+        }
     }
 }

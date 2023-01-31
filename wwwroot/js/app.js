@@ -1,4 +1,4 @@
-const uri = '/Mylist';
+const uri = '/Todo';
 let tasks = [];
 
 function getItems() {
@@ -12,7 +12,7 @@ function addItem() {
     const addNameTextbox = document.getElementById('add-name');
 
     const item = {
-        Isdone: false,
+        isdone: false,
         name: addNameTextbox.value.trim()
     };
 
@@ -42,10 +42,9 @@ function deleteItem(id) {
 
 function displayEditForm(id) {
     const item = tasks.find(item => item.id === id);
-
     document.getElementById('edit-name').value = item.name;
     document.getElementById('edit-id').value = item.id;
-    document.getElementById('edit-isdone').checked = item.isdone;
+    document.getElementById('edit-Isdone').checked =item.isdone;
     document.getElementById('editForm').style.display = 'block';
 }
 
@@ -53,8 +52,9 @@ function updateItem() {
     const itemId = document.getElementById('edit-id').value;
     const item = {
         id: parseInt(itemId, 10),
-        isdone: document.getElementById('edit-isisdone').checked,
-        name: document.getElementById('edit-name').value.trim()
+        name: document.getElementById('edit-name').value.trim(),
+        isdone: document.getElementById('edit-Isdone').checked
+       
     };
 
     fetch(`${uri}/${itemId}`, {
@@ -78,13 +78,13 @@ function closeInput() {
 }
 
 function _displayCount(itemCount) {
-    const name = (itemCount === 1) ? 'Mylist' : 'Mylist kinds';
+    const name = (itemCount === 1) ? 'Mylist' : 'Mylist tasks';
 
     document.getElementById('counter').innerText = `${itemCount} ${name}`;
 }
 
 function _displayItems(data) {
-    const tBody = document.getElementById('pizzas');
+    const tBody = document.getElementById('tasks');
     tBody.innerHTML = '';
 
     _displayCount(data.length);
@@ -95,7 +95,8 @@ function _displayItems(data) {
         let isDoneCheckbox = document.createElement('input');
         isDoneCheckbox.type = 'checkbox';
         isDoneCheckbox.disabled = true;
-        isDoneCheckbox.checked = item.isGlutenFree;
+        
+        isDoneCheckbox.checked = item.isdone;
 
         let editButton = button.cloneNode(false);
         editButton.innerText = 'Edit';

@@ -1,9 +1,12 @@
 
 
+using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json;
-namespace user.services;
-public class userService : IuserService
-    {
+using user.Models;
+
+namespace user.Services{
+public class userService : Interfaces.IuserService
+{
        
         List<User> users { get; }
 
@@ -17,7 +20,7 @@ public class userService : IuserService
             {
                 users = JsonSerializer.Deserialize<List<User>>(jsonFile.ReadToEnd(),
                 new JsonSerializerOptions
-                {
+                   {
                     PropertyNameCaseInsensitive = true
                 });
 
@@ -57,21 +60,8 @@ public class userService : IuserService
             saveToFile();
         }
 
-        // public void Update(user b)
-        // {
-        //     if (users != null)
-        //     {
-        //         int index = users.FindIndex(p => p.Id == b.Id);
-        //         if (index == -1)
-        //             return;
-        //      users[index] = b;
-        //         saveToFile();
-        //     }
-
-
-        // }
+       public int? Count => users?.Count();
 
 
 
-
-    }
+    }}
