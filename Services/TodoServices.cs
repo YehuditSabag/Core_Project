@@ -1,6 +1,8 @@
 
 
+using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
 using TodoList.Interfaces;
 using TodoList.Models;
 
@@ -8,7 +10,7 @@ using TodoList.Models;
 
 namespace TodoList.Services
 {
-    public class TodoService : ITodoService
+    public class TodoService : ITodoService 
     {
         //  List<list>? tasks { get; }
         List<Mylist>? tasks { get; }
@@ -38,11 +40,12 @@ namespace TodoList.Services
         }
 
 
-        public List<Mylist>? GetAll() => tasks;
+        // public List<Mylist>? GetAll(int id) => tasks?.FindAll(p => p.UserId == id);
 
-        public Mylist? Get(int id) => tasks?.FirstOrDefault(p => p.Id == id);
-        // 
-
+       public List<Mylist>? GetAll(int id){
+        return tasks.Where(i=>i.UserId==id).ToList();
+       }
+        public Mylist? Get(int id,int userid) => tasks?.FirstOrDefault(p => p.Id == id && p.UserId==userid); 
         public void Add(Mylist b)
         {
             if (tasks != null)
@@ -50,14 +53,15 @@ namespace TodoList.Services
                 b.Id =tasks[tasks.Count-1].Id+1 ;
                 //. tasks.Count() + 1;
                 b.Isdone=false;
+                // b.UserId=
                 tasks.Add(b);
                 saveToFile();
             }
         }
 
-        public void Delete(int id)
+        public void Delete(int id,int userid)
         {
-            var b = Get(id);
+            var b = Get(id,userid);
             if (b is null)
                 return;
 
@@ -79,8 +83,10 @@ namespace TodoList.Services
 
         }
 
-
+     
         public int? Count => tasks?.Count();
 
+       
+    
     }
 }

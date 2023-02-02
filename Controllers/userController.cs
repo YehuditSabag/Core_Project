@@ -1,10 +1,13 @@
 
 
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 using user.Interfaces;
 using user.Models;
+using user.Services;
 
 namespace user.Controllers
 {
@@ -33,21 +36,20 @@ namespace user.Controllers
              {
                  claims.Add(new Claim("type","Admin"));
              }
-            else
-            {
+            
+            
                 claims.Add( new Claim("type", "User"));
-            }
+            
                 claims.Add(new Claim("Id", getuser.Id.ToString()));
             
             
-            var token = services.TaskTokenService.GetToken(claims);
+            var token = Services.TokenService.GetToken(claims);
 
-            return new OkObjectResult(services.TaskTokenService.WriteToken(token));
+            return new OkObjectResult(Services.TokenService.WriteToken(token));
         }
         
        
         [HttpGet]
-        [Route("[action]")]
         [Authorize(Policy = "Admin")]
         public ActionResult<List<User>> GetAll()
         {
@@ -59,22 +61,23 @@ namespace user.Controllers
 
         }
 
-        [Authorize(Policy = "Admin")]
         [HttpGet("{id}")]
-        public ActionResult<User> Get(int id)
+        [Authorize(Policy = "User")]
+        public ActionResult<User> Get()
         {
-            User user = userService.Get(id);
+            var token = Request.Headers[HeaderNames.Authorization].ToString().Replace("Bearer ", "");
+            var user = userService.Get(TokenService.decode(token));
             if (user == null)
                 return NotFound();
             return user;
         }
 
+        [HttpPost("{user}")]
         [Authorize(Policy = "Admin")]
-        [HttpPost]
-        public IActionResult Create(User t)
+        public IActionResult Create([FromBody] User user)
         {
-            userService.Add(t);
-            return CreatedAtAction(nameof(Create), new { id = t.Id }, t);
+            userService.Add(user);
+            return CreatedAtAction(nameof(Create), new { Id = user.Id }, user);
 
         }
 
@@ -91,9 +94,9 @@ namespace user.Controllers
             return Content(userService.Count.ToString());
         }
 
+    
 
     }
-
 
 
 }

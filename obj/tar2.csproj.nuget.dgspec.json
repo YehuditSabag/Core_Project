@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\חני תכנות\\Core\\tar2\\tar2.csproj": {}
+    "D:\\תכנות\\Core\\פרויקטט\\tar2.csproj": {}
   },
   "projects": {
-    "C:\\חני תכנות\\Core\\tar2\\tar2.csproj": {
+    "D:\\תכנות\\Core\\פרויקטט\\tar2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\חני תכנות\\Core\\tar2\\tar2.csproj",
+        "projectUniqueName": "D:\\תכנות\\Core\\פרויקטט\\tar2.csproj",
         "projectName": "tar2",
-        "projectPath": "C:\\חני תכנות\\Core\\tar2\\tar2.csproj",
-        "packagesPath": "C:\\Users\\This_user\\.nuget\\packages\\",
-        "outputPath": "C:\\חני תכנות\\Core\\tar2\\obj\\",
+        "projectPath": "D:\\תכנות\\Core\\פרויקטט\\tar2.csproj",
+        "packagesPath": "C:\\Users\\Dell Vostro\\.nuget\\packages\\",
+        "outputPath": "D:\\תכנות\\Core\\פרויקטט\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\This_user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Dell Vostro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -47,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.26.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

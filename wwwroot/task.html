@@ -12,6 +12,7 @@
     <h3>Add</h3>
     <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
         <input type="text" id="add-name" placeholder="New Task">
+        <!-- <input type="hidden" id="add-userid"> -->
         <input type="submit" value="Add">
     </form>
 
@@ -19,6 +20,7 @@
         <h3>Edit</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
             <input type="hidden" id="edit-id">
+            <input type="hidden" id="edit-userid">
             <input type="checkbox" id="edit-Isdone">
             <input type="text" id="edit-name">
             <input type="submit" value="Save">
@@ -38,10 +40,119 @@
         <tbody id="tasks"></tbody>
     </table>
 
+    <!-- <script src="js/app.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getItems();
+    </script> -->
+    <!--  -->
+    <br>
+    
+    <h1>Users</h1>
+    <h3>GetAllUsers</h3>
+    <form action="javascript:void(0);" method="GET" onsubmit="getAllUsers()">
+        <!-- <input type="text" id="add-name" placeholder="New Task"> -->
+        <!-- <input type="hidden" id="add-userid"> -->
+        <input type="submit" value="getAllUsers">
+    </form>
+
+    <table >
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Password</th>
+            <th>delete</th>
+        </tr>
+        <tbody id="users"></tbody>
+    </table>
+
+
+    <h3>GetMyUser</h3>
+    <form action="javascript:void(0);" method="GET" onsubmit="getMyUser()">
+        <input type="submit" value="getMyUser">
+    </form>
+    <table >
+        <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Password</th>
+            
+        </tr>
+        <tbody id="myuser"></tbody>
+    </table>
+   
+
+  
+
+    <div id="AddNewUser">
+        <h3>New User</h3>
+        <form action="javascript:void(0);" onsubmit="addUser()">
+           
+            <input type="text" id="adduser-name" placeholder="enter name">
+            <input type="text" id="adduser-password" placeholder="enter  password">
+            <input type="submit" value="Save">
+            <!-- <a onclick="closeInput()" aria-label="Close">&#10006;</a> -->
+        </form>
+    </div>
+
+    <!-- <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Is task done?</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody id="tasks"></tbody>
+    </table> -->
+
     <script src="js/app.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getItems();
     </script>
+    <!-- 
+         <h1>user CRUD</h1>
+    <div id="manager">
+        <div>
+            <h3>GetAllUsers</h3>
+            <form action="javascript:void(0);" method="GET" onsubmit="getAllUsers()">
+                <input type="submit" value="getAllUsers">
+            </form>
+            <table class="tbl">
+                <tr>
+                    <th>id</th>
+                    <th>Name</th>
+                    <th>Password</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="Users"></tbody>
+            </table>
+        </div>
+        <div>
+            <h3>GetMyUser</h3>
+            <form action="javascript:void(0);" method="GET" onsubmit="getMyUser()">
+                <input type="submit" value="getMyUser">
+            </form>
+            <table id="tbl">
+            </table>
+        </div>
+        <div>
+            <h3>AddNewUser</h3>
+            <form action="javascript:void(0);" method="POST" onsubmit="addUser()">
+                <input type="text" id="add-user-name" placeholder="enter new user">
+                <input type="password" id="add-password" placeholder="enter new password">
+                <input type="submit" value="Add">
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/jav
+     -->
 </body>
 </html>
 

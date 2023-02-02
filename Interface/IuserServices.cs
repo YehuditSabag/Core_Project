@@ -3,18 +3,21 @@
 using Microsoft.AspNetCore.Mvc;
 using user.Models;
 
-namespace user.Interfaces{
-public interface IuserService
+namespace user.Interfaces
+{
+    public interface IuserService
 
     {
-         List<User> GetAll();
+        List<User> GetAll();
 
-         User Get(int id);
+        User Get(int id);
 
-         void Add(User task);
+        void Add(User task);
 
-         void Delete(int id);
+        void Delete(int id);
 
-         int? Count { get; }
+        int? Count { get; }
+
+        string decode(string str);
     }
 }

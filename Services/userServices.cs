@@ -4,10 +4,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json;
 using user.Models;
 
-namespace user.Services{
-public class userService : Interfaces.IuserService
+namespace user.Services
 {
-       
+    public class userService : Interfaces.IuserService
+    {
+
         List<User> users { get; }
 
         private IWebHostEnvironment webHost;
@@ -20,7 +21,7 @@ public class userService : Interfaces.IuserService
             {
                 users = JsonSerializer.Deserialize<List<User>>(jsonFile.ReadToEnd(),
                 new JsonSerializerOptions
-                   {
+                {
                     PropertyNameCaseInsensitive = true
                 });
 
@@ -40,12 +41,14 @@ public class userService : Interfaces.IuserService
         public User Get(int id) => users.FirstOrDefault(p => p.Id == id);
         // 
 
-        public void Add(User b)
+        public void Add(User u)
         {
             if (users != null)
             {
-                b.Id = users.Count() + 1;
-                users.Add(b);
+                
+                u.Id = users[users.Count()-1].Id+1;
+                u.IsAdmin=false;
+                users.Add(u);
                 saveToFile();
             }
         }
@@ -60,8 +63,17 @@ public class userService : Interfaces.IuserService
             saveToFile();
         }
 
-       public int? Count => users?.Count();
+        public int? Count => users?.Count();
 
+        public string decode(String st)
+        {
+            var handler = new JwtSecurityTokenHandler();
+            var decodedValue = handler.ReadJwtToken(st) as JwtSecurityToken;
+            var id = decodedValue.Claims.First(claim => claim.Type == "Id").Value;
 
+            return id;
 
-    }}
+        }
+
+    }
+}

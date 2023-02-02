@@ -1,14 +1,20 @@
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\appsettings.Development.json
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\appsettings.json
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.exe
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.deps.json
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.runtimeconfig.json
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.dll
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.pdb
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\appsettings.Development.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\appsettings.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\data\Task.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\data\user.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\package-lock.json
+C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.csproj.AssemblyReference.cache
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.GeneratedMSBuildEditorConfig.editorconfig
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.AssemblyInfoInputs.cache
@@ -23,14 +29,160 @@ C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.csproj.CopyComplete
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.dll
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\refint\tar2.dll
 C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.pdb
-C:\חני תכנות\Core\tar2\obj\Debug\net6.0\tar2.genruntimeconfig.cache
-C:\חני תכנות\Core\tar2\obj\Debug\net6.0\ref\tar2.dll
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\data\Task.json
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\data\user.json
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\package-lock.json
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\חני תכנות\Core\tar2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\appsettings.Development.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\appsettings.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\data\Task.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\data\user.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\package-lock.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.exe
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.deps.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.runtimeconfig.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.pdb
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.AssemblyReference.cache
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.GeneratedMSBuildEditorConfig.editorconfig
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.AssemblyInfoInputs.cache
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.AssemblyInfo.cs
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.CoreCompileInputs.cache
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cs
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cache
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.build.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.development.json
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\scopedcss\bundle\tar2.styles.css
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.CopyComplete
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\refint\tar2.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.pdb
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.genruntimeconfig.cache
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\ref\tar2.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\חני תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\data\user.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\package-lock.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\data\Task.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.exe
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.deps.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.runtimeconfig.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.pdb
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.AssemblyReference.cache
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.AssemblyInfoInputs.cache
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.AssemblyInfo.cs
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.CoreCompileInputs.cache
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\scopedcss\bundle\tar2.styles.css
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.CopyComplete
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\refint\tar2.dll
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.pdb
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.genruntimeconfig.cache
+C:\Users\This_user\Downloads\‏‏tar2 - עותק (2)\obj\Debug\net6.0\ref\tar2.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\appsettings.Development.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\data\user.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\data\Task.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\package-lock.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\tar2.exe
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.AssemblyReference.cache
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.GeneratedMSBuildEditorConfig.editorconfig
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.AssemblyInfoInputs.cache
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.AssemblyInfo.cs
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.CoreCompileInputs.cache
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cs
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cache
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets\msbuild.tar2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets\msbuild.build.tar2.props
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.tar2.props
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.tar2.props
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.pack.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.build.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\staticwebassets.development.json
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\scopedcss\bundle\tar2.styles.css
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.csproj.CopyComplete
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\refint\tar2.dll
+D:\תכנות\Core\‏‏tar2 - עותק (2)\obj\Debug\net6.0\tar2.pdb
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\appsettings.Development.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\data\Task.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\data\user.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\package-lock.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\tar2.staticwebassets.runtime.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\tar2.exe
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\tar2.deps.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\tar2.runtimeconfig.json
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\tar2.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\tar2.pdb
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\תכנות\Core\פרויקטט\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.csproj.AssemblyReference.cache
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.GeneratedMSBuildEditorConfig.editorconfig
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.AssemblyInfoInputs.cache
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.AssemblyInfo.cs
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.csproj.CoreCompileInputs.cache
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cs
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.MvcApplicationPartsAssemblyInfo.cache
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets\msbuild.tar2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets\msbuild.build.tar2.props
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.tar2.props
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.tar2.props
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets.pack.json
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets.build.json
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\staticwebassets.development.json
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\scopedcss\bundle\tar2.styles.css
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.csproj.CopyComplete
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.dll
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\refint\tar2.dll
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.pdb
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\tar2.genruntimeconfig.cache
+D:\תכנות\Core\פרויקטט\obj\Debug\net6.0\ref\tar2.dll

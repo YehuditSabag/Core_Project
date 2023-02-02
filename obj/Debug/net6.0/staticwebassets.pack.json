@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\Postman.html",
+      "PackagePath": "staticwebassets\\Postman.html"
+    },
+    {
+      "Id": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\task.html",
+      "PackagePath": "staticwebassets\\task.html"
+    },
+    {
+      "Id": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\wwwroot.code-workspace",
+      "PackagePath": "staticwebassets\\wwwroot.code-workspace"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.tar2.props",
+      "PackagePath": "build\\tar2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.tar2.props",
+      "PackagePath": "buildMultiTargeting\\tar2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.tar2.props",
+      "PackagePath": "buildTransitive\\tar2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.tar2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

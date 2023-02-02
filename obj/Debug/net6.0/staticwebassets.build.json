@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fKsExBf9jAAX6xdSfHdSoEATDAAaqkuhDijoYeA3va8=",
+  "Hash": "Xm6B1+d6y401/Yerno0fwQ+qDG/pHFOm+m17OnOVKWo=",
   "Source": "tar2",
   "BasePath": "_content/tar2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "tar2\\wwwroot",
       "Source": "tar2",
-      "ContentRoot": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
       "BasePath": "_content/tar2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\css\\site.css",
+      "Identity": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\css\\site.css",
       "SourceId": "tar2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
       "BasePath": "_content/tar2",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\index.html",
+      "Identity": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\index.html",
       "SourceId": "tar2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
       "BasePath": "_content/tar2",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\js\\app.js",
+      "Identity": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\js\\app.js",
       "SourceId": "tar2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
       "BasePath": "_content/tar2",
       "RelativePath": "js/app.js",
       "AssetKind": "All",
@@ -68,10 +68,44 @@
       "OriginalItemSpec": "wwwroot\\js\\app.js"
     },
     {
-      "Identity": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\wwwroot.code-workspace",
+      "Identity": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\Postman.html",
       "SourceId": "tar2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\חני תכנות\\Core\\tar2\\wwwroot\\",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
+      "BasePath": "_content/tar2",
+      "RelativePath": "Postman.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Postman.html"
+    },
+    {
+      "Identity": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\task.html",
+      "SourceId": "tar2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
+      "BasePath": "_content/tar2",
+      "RelativePath": "task.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\task.html"
+    },
+    {
+      "Identity": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\wwwroot.code-workspace",
+      "SourceId": "tar2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\תכנות\\Core\\פרויקטט\\wwwroot\\",
       "BasePath": "_content/tar2",
       "RelativePath": "wwwroot.code-workspace",
       "AssetKind": "All",
